@@ -1,0 +1,13 @@
+.home{
+    width: 100%; 
+    margin-top: 5%;
+}
+.home img{
+    width: 100%;
+}
+
+.marginLeft {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,5 @@
+.flex{ display:flex; flex-direction:row; padding: 10px;} 
+  .half {
+    width: 50%;
+    margin: auto;
+  }

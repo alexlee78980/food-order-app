@@ -1,0 +1,15 @@
+.flex{ display:flex; flex-direction:row; padding: 10px;} 
+  .half {
+    width: 50%;
+    margin: auto;
+  }
+
+  .text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    min-height: 70px;
+  }

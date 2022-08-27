@@ -1,0 +1,64 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 10%;
+  float:left;
+}
+.card.urgent{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: red;
+  width: 100%;
+  border-radius: 10px;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 10%;
+  float:left;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.card img{
+  width:100%;
+  border-radius: 10px;
+}
+
+.cardBody{
+  padding: 2%;
+}
+
+.cardTitle{
+  text-align: left;
+}
+
+.cardFrom{
+  font-family: 'Open Sans';
+  font-weight: 100;
+}
+
+.btn {
+	color: white;
+  padding: 10px;
+	background: #34465d;
+  text-align: right;
+}
+
+.btnDiv1 {
+  text-align: right;
+}
+
+.btnDiv2 {
+  width: 2%;
+  display: inline-block;
+}
+.mapContainer {
+  height: 15rem;
+  width: 100%;
+}
