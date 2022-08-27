@@ -1,9 +1,0 @@
-{
-    "env": {
-        "DB_USER": "alexlee78980",
-        "DB_PASSWORD": "test123",
-        "DB_DATABASE": "foodApp",
-        "SECRET_KEY": "SECRET_KEY",
-        "FRONT_END_URL": "http://localhost:3000"
-    }
-}
